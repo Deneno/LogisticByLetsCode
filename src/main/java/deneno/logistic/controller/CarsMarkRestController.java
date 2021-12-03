@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/mark")
+@RequestMapping("/api/marks")
 public class CarsMarkRestController extends AbstractRestController<CarsMark, CarsMarkRepository> {
     public CarsMarkRestController(CarsMarkRepository repository) {
         super(repository);
