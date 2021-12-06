@@ -8,7 +8,7 @@ define(['component/listPage', 'collections/models'], function (listPage, models)
                 id: "model",
                 dialogUrl: "views/model/modelDialog",
                 template: function (row) {
-                    return row.model && row.model.name || ''
+                    return row.model && row.model.repr || ''
                 }
             }
         ]

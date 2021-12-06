@@ -14,11 +14,11 @@ import javax.persistence.Id;
 @Entity
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        scope = CarsMark.class,
+        scope = Mark.class,
         resolver = EntityIdResolver.class,
         property = "id"
 )
-public class CarsMark implements ComboListItem {
+public class Mark implements ComboListItem {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     private Long id;

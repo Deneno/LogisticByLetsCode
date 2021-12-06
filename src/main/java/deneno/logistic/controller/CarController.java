@@ -1,14 +1,14 @@
 package deneno.logistic.controller;
 
-import deneno.logistic.domain.Cars;
-import deneno.logistic.repository.CarsRepository;
+import deneno.logistic.domain.Car;
+import deneno.logistic.repository.CarRepository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/cars")
-public class CarsController extends AbstractRestController<Cars, CarsRepository> {
-    public CarsController(CarsRepository repository) {
+public class CarController extends AbstractRestController<Car, CarRepository> {
+    public CarController(CarRepository repository) {
         super(repository);
     }
 }

@@ -4,7 +4,7 @@ define(["component/dialogPage", "collections/marks"], function (dialogPage, mark
         'resource->/api/models',
         [
             {id: "name"},
-            {id: "carsMark", options: marks }
+            {id: "mark", options: marks }
         ]
     )
 })

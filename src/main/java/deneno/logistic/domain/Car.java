@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class Cars implements ComboListItem {
+public class Car implements ComboListItem {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

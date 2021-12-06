@@ -9,9 +9,9 @@ define(function (){
                             view: 'button',
                             label: 'Add',
                             click: function () {
-                                var carsMarkList = $$(tableId)
-                                var id = carsMarkList.add({})
-                                carsMarkList.editRow(id)
+                                var markList = $$(tableId)
+                                var id = markList.add({})
+                                markList.editRow(id)
                             }
                         }
                     ]
